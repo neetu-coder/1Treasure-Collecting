@@ -26,7 +26,7 @@ function setup(){
 // Moving background
  path=createSprite(200,200);
  path.addImage(pathImg);
- //path.velocityY = 4;
+ path.velocityY = 4;
 
 //creating boy running
  boy = createSprite(70,580,20,20);
